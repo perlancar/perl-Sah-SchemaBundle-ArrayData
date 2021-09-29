@@ -1,5 +1,8 @@
 package Sah::Schema::perl::arraydata::modnames_with_optional_args;
 
+use strict;
+use warnings;
+
 # AUTHORITY
 # DATE
 # DIST
