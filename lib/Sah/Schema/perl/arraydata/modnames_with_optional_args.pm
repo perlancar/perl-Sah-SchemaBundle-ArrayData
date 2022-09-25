@@ -9,19 +9,20 @@ use warnings;
 # VERSION
 
 our $schema = [array => {
-    summary => 'Array of Perl ArrayData::* module names without the prefix, with optional args, e.g. ["Word::ID::KBBI", "WordList=wordlist,EN::Enable"]',
+    summary => 'Array of Perl ArrayData::* module names without the prefix, with optional args, e.g. ["Lingua::Word::ID::KBBI", "WordList=wordlist,EN::Enable"]',
     description => <<'_',
 
 Array of Perl ArrayData::* module names without the prefix and optional args.
-Each element is of `perl::arraydata::modname` schema, e.g. `Word::ID::KBBI`, `WordList=wordlist,EN::Enable`.
+Each element is of `perl::arraydata::modname` schema, e.g.
+`Lingua::Word::ID::KBBI`, `WordList=wordlist,EN::Enable`.
 
 Contains coercion rule that expands wildcard, so you can specify:
 
-    Word::ID::*
+    Lingua::Word::ID::*
 
 and it will be expanded to e.g.:
 
-    ["Word::ID::KBBI", "Word::ID::PERLANCAR"]
+    ["Lingua::Word::ID::KBBI", "Word::ID::PERLANCAR"]
 
 The wildcard syntax supports jokers (`?`, `*`, `**`), brackets (`[abc]`), and
 braces (`{one,two}`). See <pm:Module::List::Wildcard> for more details.

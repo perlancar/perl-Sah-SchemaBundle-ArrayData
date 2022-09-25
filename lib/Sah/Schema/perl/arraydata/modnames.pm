@@ -9,7 +9,7 @@ use warnings;
 # VERSION
 
 our $schema = [array => {
-    summary => 'Array of Perl ArrayData::* module names without the prefix, e.g. ["Word::ID::KBBI", "Number::Prime::First1000"]',
+    summary => 'Array of Perl ArrayData::* module names without the prefix, e.g. ["Lingua::Word::ID::KBBI", "Number::Prime::First1000"]',
     description => <<'_',
 
 Array of Perl ArrayData::* module names, where each element is of

@@ -9,7 +9,7 @@ use warnings;
 # VERSION
 
 our $schema = ['perl::modname' => {
-    summary => 'Perl ArrayData::* module name without the prefix, e.g. Word::ID::KBBI',
+    summary => 'Perl ArrayData::* module name without the prefix, e.g. Lingua::Word::ID::KBBI',
     description => <<'_',
 
 Contains coercion rule so you can also input `Foo-Bar`, `Foo/Bar`, `Foo/Bar.pm`
