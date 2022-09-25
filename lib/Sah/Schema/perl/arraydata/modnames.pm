@@ -37,7 +37,7 @@ _
     # provide a default completion which is from list of installed perl modules
     'x.element_completion' => ['perl_modname', {ns_prefix=>'ArrayData'}],
 
-}, {}];
+}];
 
 1;
 # ABSTRACT:
