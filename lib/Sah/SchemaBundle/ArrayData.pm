@@ -1,6 +1,6 @@
 # no code
 ## no critic: TestingAndDebugging::RequireUseStrict
-package Sah::Schemas::ArrayData;
+package Sah::SchemaBundle::ArrayData;
 
 # AUTHORITY
 # DATE
